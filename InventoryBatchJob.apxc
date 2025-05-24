@@ -4,7 +4,7 @@ global Database.QueryLocator start(Database.BatchableContext BC) {
 
 return Database.getQueryLocator(
 
-'SELECT Id, Stock_Quantity__c FROM Product__c WHERE Stock_Quantity__c < 10'
+'SELECT Id, Stock_Quantity__c FROM HandsMen_Product__c WHERE Stock_Quantity__c < 10'
 
 );
 
